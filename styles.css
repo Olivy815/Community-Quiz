@@ -22,14 +22,14 @@ body {
     margin-top: 40px;
     height: 550px;
     border-radius: 10px;
-    width: 90%; /* Set width to 90% of the viewport */
-    max-width: 400px; /* Set max-width to 400px */
+    width: 90%; 
+    max-width: 400px; 
     display:flex;
     flex-direction: column;
 }
 
 h1, h2 {
-    font-weight: 600; /* Adjusted for h2 as well if needed */
+    font-weight: 600;
     font-style: normal;
     font-size: 28px;
 }
@@ -37,7 +37,7 @@ h1, h2 {
 
 h2 {
     font-size: 20px;
-    margin-bottom: 20px; /* Adjusted to more typical value */
+    margin-bottom: 20px; 
 }
 
 .large-rectangular, .start-button{
@@ -66,6 +66,7 @@ h2 {
 }
 
 .result-title {
+    font-family: "Silkscreen", sans-serif;
     font-weight: 600;
 }
 
@@ -82,9 +83,15 @@ h2 {
 }
 
 .result-image {
-    max-width: 360px;
+    max-width: 280px;
     height: auto;
     align-items: center;
     margin: 4px;
     margin-top: 20px;
+}
+
+.result-description{
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
 }
